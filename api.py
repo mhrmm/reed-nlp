@@ -54,4 +54,5 @@ def api_id():
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
 
-app.run()
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=int("5000"), debug=True)

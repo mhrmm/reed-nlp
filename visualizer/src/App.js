@@ -278,7 +278,6 @@ class App extends React.Component  {
   }
   
   render() {
-      //alert(this.state.placeholder)
       return (
         <div>
             <Router>
